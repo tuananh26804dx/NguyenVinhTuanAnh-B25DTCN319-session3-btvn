@@ -1,0 +1,11 @@
+#include<stdio.h>
+int main(){
+float celsius;
+float fahrenheit;
+printf("Chuong trinh chuyen doi nhiet do\n");
+printf(" nhap nhiet do c:");
+scanf("%f",&celsius);
+fahrenheit= celsius *(9/5)+32;
+printf("Nhiet do Celsius: %.2f\n", celsius);
+printf("Nhiet do Fahrenheit: %.2f", fahrenheit);
+}
