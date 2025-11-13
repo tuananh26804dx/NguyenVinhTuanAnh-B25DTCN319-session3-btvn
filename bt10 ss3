@@ -1,0 +1,20 @@
+#include<math.h>
+#include<stdio.h>
+int main(){
+	double a,b,S,canB,aBinhCongBBinh,canA2CongB2,tongCanThuNhat,tongCanThuHai;
+
+	printf("Nhap a:");
+	if(scanf("%lf", &a)!=1||a<=0){printf("loi a khong phai la so duong\n");
+	return 1;}
+	printf("nhap b:");
+	if(scanf("%lf", &b)!=1||b<=0){printf("loi b khong phai la so duong\n");
+	return 1;}
+	canB=sqrt(b);
+	tongCanThuNhat=sqrt(a+canB+1);
+	aBinhCongBBinh=a*a+b*b;
+	canA2CongB2=sqrt(aBinhCongBBinh);
+	tongCanThuHai=sqrt(b+canA2CongB2);
+	S=tongCanThuNhat + tongCanThuHai;
+	printf("S= %.2lf\n",S);
+	return 0;
+}
