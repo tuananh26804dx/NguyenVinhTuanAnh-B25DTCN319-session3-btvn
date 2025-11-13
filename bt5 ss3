@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+int main() {
+    
+	printf("                                DANH SACH SINH VIEN\n");
+	printf("+-----+------------------+------+----------------+-----------------------------+\n");
+	printf("| STT | Ho va ten        | Tuoi | So dien thoai  | email                       |\n");
+	printf("+-----+------------------+------+----------------+-----------------------------+\n");
+    printf("| %4d| Nguyen Van A     | %4d | 0904488481     | anv@rikkeiacademy.com       |\n", 1, 20);
+    printf("| %4d| Nguyen Van B     | %4d | 0904488482     | bnv@rikkeiacademy.com       |\n", 2, 21);
+    printf("| %4d| Nguyen Van C     | %4d | 0904488483     | cnv@rikkeiacademy.com       |\n", 3, 18);
+    printf("| %4d| Nguyen Van D     | %4d | 0904488484     | dnv@rikkeiacademy.com       |\n", 4, 19);
+    printf("| %4d| Nguyen Van E     | %4d | 0904488485     | env@rikkeiacademy.com       |\n", 5, 22);
+    printf("| %4d| Nguyen Van F     | %4d | 0904488486     | fnv@rikkeiacademy.com       |\n", 6, 21);
+    printf("| %4d| Nguyen Van G     | %4d | 0904488487     | gnv@rikkeiacademy.com       |\n", 7, 23);
+    printf("| %4d| Nguyen Van H     | %4d | 0904488488     | hnv@rikkeiacademy.com       |\n", 8, 19);
+    printf("| %4d| Nguyen Van I     | %4d | 0904488489     | inv@rikkeiacademy.com       |\n", 9, 18);
+    printf("| %4d| Nguyen Van K     | %4d | 0904488480     | knv@rikkeiacademy.com       |\n", 10, 21);
+	printf("+-----+------------------+------+----------------+-----------------------------+\n");
+	
+	return 0; 
+}
