@@ -1,0 +1,26 @@
+#include<stdio.h>
+int main(){
+	int soNguyenBanDau;
+	int soNguyen, soNghichDao;
+	int a,b,c,d;
+	printf("nhap so nguyen co 4 chu so:");
+	scanf("%d", &soNguyen);
+	soNguyenBanDau = soNguyen;
+	if(soNguyen<1000||soNguyen>9999){printf("so nguyen ban nhap khong phai so nguyen 4 chu so"); 
+	return 1;	
+	}
+	d = soNguyen%10;
+	soNguyen=soNguyen/10;
+	
+	c = soNguyen%10;
+	soNguyen=soNguyen/10;
+	
+	b=soNguyen%10;
+	soNguyen=soNguyen/10;
+	
+	a=soNguyen%10;
+	soNghichDao=  1000*d +100*c + 10*b +a;
+	
+	printf("so nghich dao cua %d la %d", soNguyenBanDau,soNghichDao);
+	return 0;
+}
