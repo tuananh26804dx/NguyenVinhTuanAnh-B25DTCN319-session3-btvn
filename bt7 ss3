@@ -1,0 +1,25 @@
+#include<stdio.h>
+int main(){
+	int n;
+	int tong_chu_so;
+	int so_tam;
+	printf("nhap so nguyen co 4 chu so:");
+	scanf("%d", &n);
+	
+	so_tam =n;
+	tong_chu_so+= so_tam%10;
+	so_tam=so_tam/10;
+	
+		tong_chu_so+= so_tam%10;
+	so_tam=so_tam/10;
+	
+		tong_chu_so+= so_tam%10;
+	so_tam=so_tam/10;
+	
+		tong_chu_so+= so_tam%10;
+	so_tam=so_tam/10;
+	
+	printf("Tong cac chu so cua %d la:%d",n,tong_chu_so);
+	 
+	
+}
