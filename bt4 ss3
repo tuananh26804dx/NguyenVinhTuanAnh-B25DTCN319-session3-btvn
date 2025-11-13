@@ -1,0 +1,19 @@
+#include<math.h>
+#include<stdio.h>
+int main(){
+	float diemToan;
+	float diemVan;
+	float diemAnh;
+	printf("nhap diem toan:");
+	scanf("%f", &diemToan);
+	printf("nhap diem van:");
+	scanf("%f", &diemVan);
+	printf("nhap diem anh:");
+	scanf("%f", &diemAnh);
+float tongDiem = diemToan + diemVan +diemAnh;
+	printf("tong diem la:%.2f\n",tongDiem);
+	
+	float diemTrungBinh = tongDiem/3;
+	printf("diem trung binh la:%.2f", diemTrungBinh);
+	
+}
