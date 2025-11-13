@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main(){
+	double doDaiCanhDay;
+	double chieuCao;
+	printf("nhap do dai canh day:");
+	scanf("%lf", &doDaiCanhDay);
+	
+	printf("nhap chieu cao:\n");
+	scanf("%lf", &chieuCao);
+	
+	double dienTichTamGiac = (doDaiCanhDay * chieuCao)*0.5;
+	printf("dien tich tam giac la:%.2lfcm", dienTichTamGiac);
+}
